@@ -24,32 +24,32 @@ export default function Home() {
         <div style={styles.productsGrid}>
           <div style={styles.card} className="product-card">
             <img
-              src="https://images.unsplash.com/photo-1602752250015-52934bc45613"
-              alt="Gold Necklace"
-              style={styles.productImage}
-            />
-            <h3 style={styles.productTitle}>Gold Necklace</h3>
-            <p style={styles.price}>₦15,000</p>
-          </div>
-
-          <div style={styles.card} className="product-card">
-            <img
-              src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a"
-              alt="Silver Bracelet"
-              style={styles.productImage}
-            />
-            <h3 style={styles.productTitle}>Silver Bracelet</h3>
-            <p style={styles.price}>₦8,000</p>
-          </div>
-
-          <div style={styles.card} className="product-card">
-            <img
-              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+              src="/images/Home2.jpg"
               alt="Luxury Wrist Watch"
               style={styles.productImage}
             />
             <h3 style={styles.productTitle}>Luxury Wrist Watch</h3>
-            <p style={styles.price}>₦25,000</p>
+            <p style={styles.price}>₦150,000</p>
+          </div>
+
+          <div style={styles.card} className="product-card">
+            <img
+              src="/images/Home3.jpg"
+              alt="Luxury Wrist Watch"
+              style={styles.productImage}
+            />
+            <h3 style={styles.productTitle}>Luxury Wrist Watch</h3>
+            <p style={styles.price}>₦58,000</p>
+          </div>
+
+          <div style={styles.card} className="product-card">
+            <img
+              src="/images/Home4.jpg"
+              alt="Luxury Wrist Watch"
+              style={styles.productImage}
+            />
+            <h3 style={styles.productTitle}>Luxury Wrist Watch</h3>
+            <p style={styles.price}>₦55,000</p>
           </div>
         </div>
       </section>
@@ -128,7 +128,7 @@ const styles = {
     justifyContent: "center",
     textAlign: "center",
     backgroundImage:
-      "url('https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3')",
+      "url('https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3')", /*"/images/Home1.jpg"*/
     backgroundSize: "cover",
     backgroundPosition: "center",
   },
